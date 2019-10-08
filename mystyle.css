@@ -1,0 +1,164 @@
+﻿.block3 {
+	margin-top: 7px;
+	margin-left: 20%;
+	color: rgb(220, 53, 69);
+}
+
+.MainTable {
+	border: 1px solid rgb(220,220,220);
+	margin: 0 auto;
+	width: 70%;
+	border-collapse: collapse;
+	border-spacing: 10px;
+    
+}
+
+.MainTable th, td {
+	padding: 10px;
+}
+
+.MainTable td:nth-child(1) {
+	width: 60%;
+	border: 1px solid rgb(220,220,220);
+}
+
+.MainTable td:nth-child(2) {
+	border: 1px solid rgb(220,220,220);
+}
+
+.MainTable td:nth-child(3), .MainTable td:nth-child(4) {
+	width: 15%;
+	padding-left: 0px;
+	overflow:visible;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+	border: 1px solid rgb(220,220,220);
+}
+
+ .MainTable tbody tr:nth-child(2n+1) {
+	background: rgb(245, 245, 245);
+}
+
+.MainTable tbody tr:nth-child(2n) {
+	background: #fff;
+}
+
+.MainTable  th:nth-child(n){
+	border: 1px solid rgb(220,220,220);
+	text-align: left;
+	padding-left: 8px;
+	background: #fff;
+}
+
+
+
+input[type=text], input[type=number] {
+	width: 90%;
+	border: 1px solid rgb(220,220,220);
+	border-radius: 5px;
+}
+
+input[type=number] {
+	width: 90%;
+}
+
+
+.addTable {
+	border-radius: 5px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	width: 70%;
+	height: 90%;
+	text-align: left;
+	border: 1px solid rgb(220,220,220);
+}
+
+.addTable th, .addTable td {
+	padding-left: 20px;
+}
+
+.addTable th{
+	padding-top: 15px;
+}
+
+.addTable td:nth-child(1){
+	width: 70%;
+}
+
+a, span, .green {
+	font-size: 85%;
+	text-align: left;	
+	padding:2px 5px 2px 5px;
+	position: relative;
+	text-decoration: none;
+	border-radius: 5px;
+	text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+	box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+	-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true)";
+	filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true);
+}
+span{
+	left: 5px;
+}
+
+.block1, .block4 {
+	line-height: 50px;
+	text-align: left;
+	font-weight: 700;
+	font-size: 26px; /* Размер шрифта в пунктах */ 
+	margin-top: 10px;
+	margin-left: 15%;
+}
+
+.block4 {
+	margin-left: 0;
+}
+
+.block2{
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+
+.yellow {		
+	background-image: linear-gradient(to bottom, rgb(255, 193, 7) 0%, rgb(225, 173, 0) 100%);
+	color: inherit;
+}
+
+.blue-1 {
+	background-image: linear-gradient(to bottom, rgb(0, 123, 255) 0%, rgb(0, 103, 205) 100%);
+	color: white;
+	border: 0px;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-left:60%;
+	margin-top:20px;
+	padding: 7px 12px 7px 12px;
+}
+
+.blue {
+	background-image: linear-gradient(to bottom, rgb(0, 123, 255) 0%, rgb(0, 103, 205) 100%);
+	color: white;
+	top: -20px;
+	cursor: pointer;
+}
+.red {
+	background-image: linear-gradient(to bottom, rgb(220, 53, 69) 0%, rgb(170, 33, 59) 100%);
+	color: white;
+	cursor: pointer;
+}
+
+.green {
+	background-image: linear-gradient(to bottom, rgb(40, 167, 69) 0%, rgb(10, 137, 49) 100%);
+	color: white;
+	border: 0px;
+	padding: 0.6px 2px 2px 2px;
+	cursor: pointer;
+}
+.red:hover, .blue:hover, .blue-1:hover, .green:hover {
+	color: inherit;
+}
+.yellow:hover {		
+	color: white;
+}
